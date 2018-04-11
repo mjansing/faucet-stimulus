@@ -1,0 +1,13 @@
+{
+  "name": "faucet-stimulus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "faucet --compact"
+  },
+  "dependencies": {
+    "faucet-pipeline-esnext": "^1.0.0-rc.5",
+    "stimulus": "^1.0.1"
+  }
+}
