@@ -7,7 +7,7 @@
     "compile": "faucet --compact"
   },
   "dependencies": {
-    "faucet-pipeline-esnext": "^1.0.0-rc.5",
+    "faucet-pipeline-esnext": "^1.0.0-rc.12",
     "stimulus": "^1.0.1"
   }
 }
