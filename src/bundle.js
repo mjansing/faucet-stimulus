@@ -1,3 +1,9 @@
-import { Application } from 'stimulus'
+import { Application } from "@hotwired/stimulus"
+window.Stimulus = Application.start()
+
+Stimulus.handleError = (error, message, detail) => {
+  console.warn(message, detail)
+  ErrorTrackingSystem.captureException(error)
+}
 
 console.log('hello faucet');
